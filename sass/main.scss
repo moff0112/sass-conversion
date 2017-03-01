@@ -1,4 +1,10 @@
 
+@import "variables";
+
+
+@import "mixins";
+
+
 * {
     box-sizing: border-box;
 }
@@ -93,8 +99,8 @@ a {
   	  transition: background-color 0.5s ease, border 0.5s ease;
 
       &:hover {
-        background-color: #4169E1;
-	      border: 1px solid #4169E1;
+        background-color: $bg-people-hover;
+	      border: 1px solid $bg-people-hover;
       }
     }
 
@@ -104,11 +110,47 @@ a {
     font-family: Impact, sans-serif;
     vertical-align: middle;
     font-size: 4rem;
-    color: #FFD700;
+    color: $bg-gold;
   }
         &:last-of-type {
     font-style: italic;
     text-transform: lowercase;
+      }
+    }
+  }
+}
+
+/* -- THIRD DIV -- */
+.bg-gold {
+	background-color: $bg-gold;
+	padding: 2rem 0;
+
+  ul {
+
+    li {
+    width: 100%;
+
+      a {
+      	display: block;
+      	padding: 1rem;
+      	background-color: #FFF;
+        text-decoration: none;
+      	border-bottom: 1px solid #CCC;
+      }
+      &:last-child a {
+	       border: none;
+
+         &:hover { /* when <a> that belongs to .bg-gold is hovered, color the text of second <span> that belongs to <a> to darkgoldenrod */
+    color: #666;
+	  background-color: #EEE;
+  }
+}
+  span {
+
+  &:last-child {
+    text-transform: uppercase;
+	margin: 0 0 0 1rem;
+        }
       }
     }
   }
