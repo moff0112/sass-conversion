@@ -29,29 +29,27 @@ a {
 /*First div*/
 .bg-white {
   background-color: #FFF; }
-
-#company {
-  font-size: 3rem; }
-
-.first ul {
-  margin: 0 0 1.5rem 0;
-  padding: 0;
-  border: 1px solid #999; }
-  .first ul li a {
-    display: block;
-    border-bottom: 1px solid #CCC;
-    padding: 1rem;
-    background-color: #EEE; }
-    .first ul li a:hover {
-      background-color: #666;
-      border-bottom: 1px solid #666;
-      color: white;
-      text-shadow: 0 1px 1px #333; }
-  .first ul li:nth-of-type(6) a {
-    border-bottom: none; }
-.first h1 {
-  font-family: 'Damion';
-  margin: 1.5rem 2rem 1.5rem 0; }
+  .bg-white #company {
+    font-size: 3rem; }
+  .bg-white .first ul {
+    margin: 0 0 1.5rem 0;
+    padding: 0;
+    border: 1px solid #999; }
+    .bg-white .first ul li a {
+      display: block;
+      border-bottom: 1px solid #CCC;
+      padding: 1rem;
+      background-color: #EEE; }
+      .bg-white .first ul li a:hover {
+        background-color: #666;
+        border-bottom: 1px solid #666;
+        color: white;
+        text-shadow: 0 1px 1px #333; }
+    .bg-white .first ul li:nth-of-type(6) a {
+      border-bottom: none; }
+  .bg-white .first h1 {
+    font-family: 'Damion';
+    margin: 1.5rem 2rem 1.5rem 0; }
 
 /* -- SECOND DIV -- */
 .bg-people {
@@ -103,5 +101,86 @@ a {
     .bg-gold ul li span:last-child {
       text-transform: uppercase;
       margin: 0 0 0 1rem; }
+
+/*fourth div*/
+.second {
+  padding: 2rem 0; }
+  .second ul::after {
+    /* clear <li> floated left */
+    content: "";
+    display: block;
+    clear: both; }
+  .second ul h1 span:first-of-type {
+    /* accessing '+' in <h1> */
+    font-family: Impact, sans-serif;
+    vertical-align: middle;
+    font-size: 4rem; }
+  .second ul h1 span:last-of-type {
+    font-style: italic; }
+  .second ul li {
+    float: left;
+    width: 50%;
+    padding: 0 1rem 0 0; }
+    .second ul li img {
+      width: 100%;
+      height: auto; }
+  .second .names {
+    display: block;
+    text-align: center;
+    margin: 0.5rem 0 1rem 0; }
+  .second p {
+    padding: 0 1rem 0 0;
+    line-height: 1.5rem; }
+    .second p:last-child {
+      padding: 0; }
+
+/* -- FIFTH DIV -- */
+.bg-black {
+  background-color: #212121;
+  color: #FFF;
+  padding: 2rem 0 3rem 0; }
+  .bg-black h1 {
+    text-transform: uppercase; }
+    .bg-black h1 span:first-of-type {
+      /* accessing '+' in <h1> */
+      font-family: Impact, sans-serif;
+      vertical-align: middle;
+      font-size: 4rem; }
+    .bg-black h1 span:last-of-type {
+      font-style: italic;
+      text-transform: lowercase; }
+  .bg-black .container {
+    padding: 0;
+    margin: 0 0 1rem 0; }
+    .bg-black .container img {
+      width: 100%;
+      height: auto; }
+    .bg-black .container ul {
+      margin: 0 0 1.2rem 0; }
+      .bg-black .container ul li {
+        margin: 0 0 0.8rem 0; }
+  .bg-black .form-box {
+    padding: 0.5rem 0; }
+    .bg-black .form-box input {
+      border: none;
+      width: 100%;
+      height: 2rem;
+      padding: 1.5rem; }
+      .bg-black .form-box input [type="submit"] {
+        border: none;
+        background-color: #FFD700;
+        color: #000;
+        font-size: 1rem;
+        font-weight: bold;
+        padding: 1.3rem 2.3rem 2.3rem 2.3rem; }
+    .bg-black .form-box textarea {
+      width: 100%;
+      padding: 1.5rem;
+      border: none; }
+
+/* -- SIXTH DIV -- */
+.third p {
+  text-align: center;
+  line-height: 1.6rem; }
 
 /*# sourceMappingURL=main.css.map */
