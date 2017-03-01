@@ -1,16 +1,16 @@
 /*
 Error: Invalid CSS after "}": expected "}", was ""
-        on line 68 of sass/_queries.scss
+        on line 175 of sass/_queries.scss
         from line 284 of sass/main.scss
 
-63:       background-color: #4169E1;
-64:       border: 1px solid #4169E1;
-65:     }
-66:   }
-67: }
+170: 
+171: .form-box {
+172:   padding: 0.5rem;
+173: }
+174: }
 
 Backtrace:
-sass/_queries.scss:68
+sass/_queries.scss:175
 sass/main.scss:284
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:1207:in `expected'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:1137:in `expected'
@@ -67,4 +67,4 @@ sass/main.scss:284
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"}\": expected \"}\", was \"\"\A         on line 68 of sass/_queries.scss\A         from line 284 of sass/main.scss\A \A 63:       background-color: #4169E1;\A 64:       border: 1px solid #4169E1;\A 65:     }\A 66:   }\A 67: }"; }
+  content: "Error: Invalid CSS after \"}\": expected \"}\", was \"\"\A         on line 175 of sass/_queries.scss\A         from line 284 of sass/main.scss\A \A 170: \A 171: .form-box {\A 172:   padding: 0.5rem;\A 173: }\A 174: }"; }
