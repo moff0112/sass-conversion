@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box; }
+
+html, body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0; }
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+h1 {
+  line-height: 3rem;
+  font-size: 1.3rem; }
+
+a {
+  color: #000;
+  text-decoration: none; }
+  a:hover {
+    color: #B8860B; }
+
+.box {
+  width: 90%;
+  max-width: 80rem;
+  margin: 0 auto; }
+
+/*First div*/
+.bg-white {
+  background-color: #FFF; }
+
+#company {
+  font-size: 3rem; }
+
+.first ul {
+  margin: 0 0 1.5rem 0;
+  padding: 0;
+  border: 1px solid #999; }
+  .first ul li a {
+    display: block;
+    border-bottom: 1px solid #CCC;
+    padding: 1rem;
+    background-color: #EEE; }
+    .first ul li a:hover {
+      background-color: #666;
+      border-bottom: 1px solid #666;
+      color: white;
+      text-shadow: 0 1px 1px #333; }
+  .first ul li:nth-of-type(6) a {
+    border-bottom: none; }
+.first h1 {
+  font-family: 'Damion';
+  margin: 1.5rem 2rem 1.5rem 0; }
+
+/* -- SECOND DIV -- */
+.bg-people {
+  background-image: url(../images/bg/creative-office.jpg);
+  background-size: cover; /* bg image will always cover the assigned area regardless of screen-size */
+  color: #FFF;
+  padding: 2rem 0 3rem 0; }
+  .bg-people a {
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    margin: 0 0 1rem 0;
+    border: 1px solid #FFF;
+    background-color: #000;
+    transition: background-color 0.5s ease, border 0.5s ease; }
+    .bg-people a:hover {
+      background-color: #4169E1;
+      border: 1px solid #4169E1; }
+  .bg-people h1 span:first-of-type {
+    /* accessing '+' in <h1> */
+    font-family: Impact, sans-serif;
+    vertical-align: middle;
+    font-size: 4rem;
+    color: #FFD700; }
+  .bg-people h1 span:last-of-type {
+    font-style: italic;
+    text-transform: lowercase; }
+
+/*# sourceMappingURL=main.css.map */
