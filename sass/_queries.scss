@@ -46,3 +46,22 @@
   		margin: 1.5rem 2rem 1.5rem 0;
   	}
 }
+
+/* -- SECOND DIV -- */
+.bg-people {
+   a {
+    display: inline-block;
+    color: #FFF;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    margin: 0 1rem 0 0;
+    border: 1px solid #FFF;
+    background-color: #000;
+    transition: background-color 0.5s ease, border 0.5s ease;
+
+    &:hover {
+      background-color: #4169E1;
+      border: 1px solid #4169E1;
+    }
+  }
+}
