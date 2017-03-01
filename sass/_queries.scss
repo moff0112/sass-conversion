@@ -1,0 +1,48 @@
+// MEDIA QUERY - FUNCTION CALL
+@include tablet {
+
+    h1 {
+      line-height: 3.5rem;
+      font-size: 2rem;
+    }
+
+    .first {
+      ul {
+  		    margin: 0 0 1rem 0;
+  		    border: none;
+
+          li {
+  		        display: inline;
+
+
+              a {
+            		display: inline;
+            		font-size: 1.2rem;
+            		padding: 0 1rem;
+            		border: none;
+            		background-color: #FFF;
+            		border-right: 1px solid #CCD;
+  	           }
+
+              &:first-of-type a { /* access the first <li> */
+            		color: #FFD700;
+            		padding: 0 1rem 0 0;
+  	           }
+
+  	          &:nth-of-type(6) a {
+  		           border-right: none;
+  	            }
+
+  	           &:hover {
+              		background-color: #FFF;
+              		border-bottom: none;
+              		color: #B8860B;
+              		text-shadow: none;
+  	             }
+               }
+             }
+
+             h1 {
+  		margin: 1.5rem 2rem 1.5rem 0;
+  	}
+}
